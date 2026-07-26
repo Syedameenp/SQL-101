@@ -5,7 +5,6 @@ CREATE TABLE nstudent (
     PRIMARY KEY(student_id)
 );
 
-
 DESCRIBE nstudent;
 
 ALTER TABLE nstudent ADD gpa DECIMAL(3, 2);
