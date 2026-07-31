@@ -29,3 +29,24 @@ MODIFY COLUMN employees_id INT NOT NULL AUTO_INCREMENT;
 SHOW CREATE TABLE employees;
 
 SELECT * FROM employees
+
+------------------
+
+SELECT 1employees_id, 1employee_name 
+FROM 1employees;
+
+SELECT 1employees.1employees_id, 1employees.1employee_name 
+FROM 1employees
+ORDER BY 1employee_name DESC;
+
+SELECT 1employees.1employees_id, 1employees.1employee_name 
+FROM 1employees
+ORDER BY 1employee_name ASC;
+
+SELECT 1employees.1employees_id, 1employees.1employee_name 
+FROM 1employees
+LIMIT 1employee_name ASC;
+
+SELECT 1employee_name
+FROM 1employees
+WHERE  1employee_name IN ("Faraz", "Fahad", "Arfath");  

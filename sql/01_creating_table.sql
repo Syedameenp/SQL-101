@@ -1,8 +1,7 @@
 CREATE TABLE nstudent ( 
-    student_id INT, 
+    student_id INT PRIMARY KEY, 
     name VARCHAR (20), 
-    major VARCHAR (20),
-    PRIMARY KEY(student_id)
+    major VARCHAR (20)
 );
 
 DESCRIBE nstudent;

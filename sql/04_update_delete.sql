@@ -28,4 +28,4 @@ DROP INDEX major;
 
 SELECT * FROM nstudent;
 
-ALTER TABLE nstudent ADD major 
+ALTER TABLE nstudent ADD major  
