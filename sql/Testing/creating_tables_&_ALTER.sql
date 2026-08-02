@@ -42,3 +42,14 @@ ALTER TABLE newtable_employee
 DROP employee_major;
 
 ----------------------------------
+
+SELECT newtable_employee.employee_name 
+FROM newtable_employee
+WHERE employee_name = "Jesse"
+
+SELECT newtable_employee
+FROM employee_name
+where employee_name = "Jack";
+
+
+
